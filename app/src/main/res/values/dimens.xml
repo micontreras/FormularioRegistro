@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="padding_10dp">10dp</dimen>
+    <dimen name="padding_20dp">20dp</dimen>
+    <dimen name="ancho_boton">60dp</dimen>
+    <dimen name="tam_titulo">20dp</dimen>
+    <dimen name="tam_texto">15dp</dimen>
+    <dimen name="tam_texto_boton">15dp</dimen>
+</resources>

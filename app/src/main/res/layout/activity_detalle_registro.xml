@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetalleRegistro">
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_10dp"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/padding_10dp"
+        android:text="@string/titulo_confirmacion"
+        android:textColor="@color/primaryText"
+        android:textSize="@dimen/tam_titulo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/margin_10dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_10dp"
+            android:textColor="@color/secundaryText"
+            android:textSize="@dimen/tam_texto"
+            android:text="@string/nombre2"/>
+        <TextView
+            android:id="@+id/tvNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_10dp"
+            android:textColor="@color/secundaryText"
+            android:textSize="@dimen/tam_texto"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_margin="@dimen/margin_10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_10dp"
+            android:textColor="@color/secundaryText"
+            android:textSize="@dimen/tam_texto"
+            android:text="@string/fecha_nac2"/>
+        <TextView
+            android:id="@+id/tvFechaNac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_10dp"
+            android:textColor="@color/secundaryText"
+            android:textSize="@dimen/tam_texto"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_margin="@dimen/margin_10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_10dp"
+            android:textColor="@color/secundaryText"
+            android:textSize="@dimen/tam_texto"
+            android:text="@string/telefono2"/>
+        <TextView
+            android:id="@+id/tvTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_10dp"
+            android:textColor="@color/secundaryText"
+            android:textSize="@dimen/tam_texto"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_margin="@dimen/margin_10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_10dp"
+            android:textColor="@color/secundaryText"
+            android:textSize="@dimen/tam_texto"
+            android:text="@string/email2"/>
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_10dp"
+            android:textColor="@color/secundaryText"
+            android:textSize="@dimen/tam_texto"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_margin="@dimen/margin_10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_10dp"
+            android:textColor="@color/secundaryText"
+            android:textSize="@dimen/tam_texto"
+            android:text="@string/desc_contacto2"/>
+        <TextView
+            android:id="@+id/tvDescContacto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_10dp"
+            android:textColor="@color/secundaryText"
+            android:textSize="@dimen/tam_texto"/>
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_10dp"
+        android:text="@string/titulo_boton_editar"
+        android:layout_gravity="center_horizontal"
+        android:padding="@dimen/padding_10dp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/primaryText"
+        android:textSize="@dimen/tam_texto_boton"
+        android:onClick="mostrarEditar"
+        android:gravity="center_horizontal"/>
+</LinearLayout>

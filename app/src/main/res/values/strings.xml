@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Formulario registro</string>
+    <string name="nombre">Nombre completo</string>
+    <string name="fecha_nac">Fecha de nacimiento</string>
+    <string name="telefono">Teléfono</string>
+    <string name="email">Email</string>
+    <string name="desc_contacto">Descripción del contacto</string>
+    <string name="titulo_boton">Siguiente</string>
+    <string name="titulo_confirmacion">Confirmar datos</string>
+    <string name="titulo_boton_editar">Editar datos</string>
+    <string name="p_nombre">Nombre completo</string>
+    <string name="p_fecha_nac">Fecha de nacimiento</string>
+    <string name="p_telefono">Teléfono</string>
+    <string name="p_email">Email</string>
+    <string name="p_desc_contacto">Descripción del contacto</string>
+
+    <string name="nombre2">Nombre completo:</string>
+    <string name="fecha_nac2">Fecha de nacimiento:</string>
+    <string name="telefono2">Teléfono:</string>
+    <string name="email2">Email:</string>
+    <string name="desc_contacto2">Descripción del contacto:</string>
+</resources>
